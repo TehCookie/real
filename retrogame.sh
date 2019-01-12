@@ -72,7 +72,7 @@ if [ $RETROGAME_SELECT -lt 9 ]; then
 	fi
 
 	echo -n "Downloading, installing retrogame.cfg..."
-	curl -f -s -o /boot/retrogame.cfg https://raw.githubusercontent.com/TehCookie/Retro-Game/master/configs/retrogame.cfg.pigrrl2.${CONFIGNAME[$RETROGAME_SELECT-1]}
+	curl -f -s -o /boot/retrogame.cfg https://raw.githubusercontent.com/TehCookie/Retro-Game/master/configs/retrogame.cfg.pigrrl2
 	if [ $? -eq 0 ]; then
 		echo "OK"
 	else
